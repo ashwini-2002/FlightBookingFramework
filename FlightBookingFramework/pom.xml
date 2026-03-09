@@ -9,63 +9,59 @@
 <artifactId>FlightBookingFramework</artifactId>
 <version>0.0.1-SNAPSHOT</version>
 
+
 <dependencies>
 
 <!-- Selenium -->
 <dependency>
-<groupId>org.seleniumhq.selenium</groupId>
-<artifactId>selenium-java</artifactId>
-<version>4.20.0</version>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.20.0</version>
 </dependency>
 
 <!-- TestNG -->
 <dependency>
-<groupId>org.testng</groupId>
-<artifactId>testng</artifactId>
-<version>7.10.2</version>
-<scope>test</scope>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.10.2</version>
+    <scope>test</scope>
 </dependency>
 
 <!-- WebDriver Manager -->
 <dependency>
-<groupId>io.github.bonigarcia</groupId>
-<artifactId>webdrivermanager</artifactId>
-<version>5.8.0</version>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.8.0</version>
 </dependency>
 
 <!-- Apache POI -->
 <dependency>
-<groupId>org.apache.poi</groupId>
-<artifactId>poi-ooxml</artifactId>
-<version>5.2.5</version>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.2.5</version>
 </dependency>
 
 <!-- Extent Reports -->
 <dependency>
-<groupId>com.aventstack</groupId>
-<artifactId>extentreports</artifactId>
-<version>5.1.1</version>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.1</version>
 </dependency>
 
 <!-- Screenshot Support -->
 <dependency>
-<groupId>commons-io</groupId>
-<artifactId>commons-io</artifactId>
-<version>2.15.1</version>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.15.1</version>
 </dependency>
 
 <!-- Logger -->
 <dependency>
-<groupId>org.slf4j</groupId>
-<artifactId>slf4j-simple</artifactId>
-<version>2.0.12</version>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>2.0.12</version>
 </dependency>
 
-	<dependency>
-		<groupId>com.sdet</groupId>
-		<artifactId>EcommerceFramework</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</dependency>
 </dependencies>
 <build>
 
@@ -86,5 +82,6 @@
 </plugins>
 
 </build>
+
 
 </project>
