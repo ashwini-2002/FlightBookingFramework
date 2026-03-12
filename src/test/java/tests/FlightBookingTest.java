@@ -28,11 +28,10 @@ public class FlightBookingTest extends BaseTest {
 
         purchase.completePurchase();   // fills form + click purchase
 
-        // AFTER purchase → go to confirmation page
         ConfirmationPage confirm = new ConfirmationPage(driver);
 
         String message = confirm.getConfirmationMessage();
 
-        System.out.println("Booking Status: " + message);
+        System.out.println("Booking Status: " + message);     
     }
 }

@@ -13,11 +13,11 @@ try{
 
 FileInputStream fis=new FileInputStream(path);
 
-XSSFWorkbook wb=new XSSFWorkbook(fis);
-
-XSSFSheet sheet=wb.getSheet("Sheet1");
-
-return sheet.getRow(row).getCell(col).getStringCellValue();
+try (XSSFWorkbook wb = new XSSFWorkbook(fis)) {
+	XSSFSheet sheet=wb.getSheet("Sheet1");
+	
+	return sheet.getRow(row).getCell(col).getStringCellValue();
+}
 
 }
 catch(Exception e){

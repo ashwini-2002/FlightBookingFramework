@@ -1,4 +1,4 @@
-package pages;
+package pages;   //page classes representing each webpage 
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,8 +10,8 @@ public class HomePage {
 
     By fromCity = By.name("fromPort");
     By toCity = By.name("toPort");
-    By findFlights = By.xpath("//input[@value='Find Flights']");
-
+    By findFlights = By.xpath("//input[@value='Find Flights']");    //html/body/div[3]/form/div/input
+    
     public HomePage(WebDriver driver) {
         this.driver = driver;
     }

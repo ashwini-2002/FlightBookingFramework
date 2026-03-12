@@ -13,6 +13,8 @@ if(extent==null){
 
 ExtentSparkReporter spark = new ExtentSparkReporter("reports/ExtentReport.html");
 
+//This line creates a Spark reporter which generates an HTML report at the specified location.
+
 extent = new ExtentReports();
 
 extent.attachReporter(spark);

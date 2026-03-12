@@ -1,4 +1,4 @@
-package base;
+package base;  //browser setup and teardown methods 
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
@@ -10,7 +10,7 @@ public class BaseTest {
 
     protected WebDriver driver;
 
-    @BeforeMethod
+    @BeforeMethod       
     public void setUp() {
 
         driver = DriverFactory.getDriver();
@@ -27,3 +27,6 @@ public class BaseTest {
 
     }
 }
+
+
+
